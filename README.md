@@ -1,1 +1,1 @@
-# ce-afp-ace-poi-produce
+# ce-afp-ace-poi-produce-gitops
