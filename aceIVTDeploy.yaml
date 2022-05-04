@@ -29,7 +29,7 @@ spec:
   enableMetrics: true
   replicas: 1
   service:
-    endpointType: https
+    endpointType: http
   designerFlowsOperationMode: disabled
   adminServerSecure: false
   tracing:
