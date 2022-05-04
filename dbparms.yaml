@@ -1,0 +1,10 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: Configuration
+metadata:
+  name: dbparms
+  annotations:
+    argocd.argoproj.io/sync-wave: "-1"
+spec:
+  contents: 
+  type: setdbparms
+---
