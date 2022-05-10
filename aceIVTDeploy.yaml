@@ -31,7 +31,7 @@ spec:
   service:
     endpointType: http
   designerFlowsOperationMode: disabled
-  adminServerSecure: true
+  adminServerSecure: false
   tracing:
     enabled: false
     namespace: ace
