@@ -33,7 +33,7 @@ spec:
   designerFlowsOperationMode: disabled
   adminServerSecure: false
   tracing:
-    enabled: false
+    enabled: true
     namespace: ace
   logFormat: basic
   configurations: ["kakfa-policy", "kafka.jks", "kafka-parms", "github-bar-auth"]
