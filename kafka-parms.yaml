@@ -1,0 +1,10 @@
+apiVersion: appconnect.ibm.com/v1beta1
+kind: Configuration
+metadata:
+  name: kafka-parms
+  annotations:
+    argocd.argoproj.io/sync-wave: "-1"
+spec:
+  contents: a2Fma2E6Om15S2Fma2FTZWNJZCBzY3JhbTEgQmJyRmoyN1Nzc1FmCnRydXN0c3RvcmU6OnRydXN0c3RvcmVQYXNzIGFueW5hbWUgcGFzc3dvcmQ=
+  type: setdbparms
+---
